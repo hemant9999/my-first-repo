@@ -1,0 +1,109 @@
+- id: pearl_contact_checkin_checkout
+  question: "What are the check-in and check-out times, and how should guests contact La Brisa?"
+  expected_answer_contains:
+    - "2pm"
+    - "11am"
+    - "WhatsApp"
+    - "+91 85307 45546"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [4]
+
+- id: pearl_smoking_fine
+  question: "Is smoking allowed inside Pearl Stay, and what fine applies if this rule is broken?"
+  expected_answer_contains:
+    - "not allowed"
+    - "10,000"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [4, 5]
+
+- id: pearl_house_rules_music_guests
+  question: "What are the house rules about loud music and registered guests?"
+  expected_answer_contains:
+    - "No loud music"
+    - "10 PM"
+    - "registered guests"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [5]
+
+- id: pearl_wifi_and_geyser
+  question: "What should guests do if the Wi-Fi is not working, and how do they turn on hot water?"
+  expected_answer_contains:
+    - "phone"
+    - "Wi-Fi"
+    - "off and on"
+    - "geyser"
+    - "switch"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [6]
+
+- id: pearl_beach_access
+  question: "How do guests walk from the property to Ashvem Beach?"
+  expected_answer_contains:
+    - "staircase"
+    - "turn left"
+    - "small bridge"
+    - "Koleso"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [8]
+
+- id: pearl_taxis_and_rentals
+  question: "Which taxi contacts and scooter rental contacts does the guide recommend?"
+  expected_answer_contains:
+    - "Caitano"
+    - "Remy"
+    - "Pascoal"
+    - "Swapnita"
+    - "Seema"
+    - "Raymond"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [11]
+
+- id: pearl_parking
+  question: "Where should guests park vehicles, and is scooter parking allowed in front of the house?"
+  expected_answer_contains:
+    - "opposite Goa Celebrations"
+    - "not allowed"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [4, 11]
+
+- id: pearl_cleaning_schedule
+  question: "What cleaning is included for mid-stay and long-stay guests?"
+  expected_answer_contains:
+    - "After 3 days"
+    - "light complimentary clean"
+    - "7 nights"
+    - "fresh linens"
+    - "towels"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [13]
+
+- id: pearl_checkout_tasks
+  question: "What should guests do before leaving at checkout?"
+  expected_answer_contains:
+    - "trash"
+    - "Turn off AC"
+    - "lights"
+    - "appliances"
+    - "Lock"
+    - "keys"
+    - "keylockbox"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [14]
+
+- id: pearl_late_checkout
+  question: "What is the late check-out policy?"
+  expected_answer_contains:
+    - "additional night"
+    - "following day"
+  expected_sources:
+    - file: "Pearl Stay_Guest Guide.pdf"
+      pages: [14]
